@@ -5,7 +5,7 @@ edition = "2021"
 rust-version = "1.75"
 description = "A generic wrapper for using two-variant enums as optional clap CLI flags"
 license = "MIT OR Apache-2.0"  # standard dual-license for Rust crates
-repository = "https://github.com/yourname/clap-binary-enum"
+repository = "https://github.com/eriktews/clap-binary-enum"
 keywords = ["clap", "cli", "enum", "flag", "args"]
 categories = ["command-line-interface"]
 
