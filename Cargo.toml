@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "clap-binary-enum",
+    "clap-binary-enum-derive",
+]
+resolver = "2"  # recommended for all new workspaces
