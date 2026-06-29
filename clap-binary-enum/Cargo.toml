@@ -1,6 +1,6 @@
 [package]
 name = "clap-binary-enum"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 rust-version = "1.75"
 description = "A generic wrapper for using two-variant enums as optional clap CLI flags"
@@ -11,4 +11,4 @@ categories = ["command-line-interface"]
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
-clap-binary-enum-derive = { version = "0.1.0", path = "../clap-binary-enum-derive" }
+clap-binary-enum-derive = { version = "0.1.2", path = "../clap-binary-enum-derive" }

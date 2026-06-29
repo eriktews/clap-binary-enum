@@ -72,7 +72,7 @@ fn derive_yes_no_arg_inner(input: DeriveInput) -> syn::Result<TokenStream2> {
         .map(|h| quote! { , help = #h });
 
     Ok(quote! {
-        #[derive(clap::Args, Debug)]
+        #[derive(clap::Args, Debug, Clone)]
         #[group(multiple = false)]
         pub struct #arg_struct_name {
             #[arg(long = #pos_flag_name #pos_help)]

@@ -170,7 +170,7 @@ enum Network { Online, Offline }
 it generates:
 
 ```rust
-#[derive(clap::Args, Debug)]
+#[derive(clap::Args, Debug, Clone)]
 #[group(multiple = false)]
 struct NetworkArg {
     #[arg(long)]
